@@ -1,21 +1,21 @@
 # VNSGAII-CARS-Algorithm
-the information of raw data :
-X1 : the spectrum from the first batch of biotransformation
-X2 : the spectrum from the second batch of biotransformation
-Y1 : the concentration of L-Glu and GABA in the first batch of biotransformation, the first column is the concentration of L-Glu and the second column is the concentration of GABA
-Y2 : the concentration of L-Glu and GABA in the second batch of biotransformation, the first column is the concentration of L-Glu and the second column is the concentration of GABA
-sel: the selected spectra points apart from the noise part from the interference of water 
-Wavenum : the Wave number of the spectra
-1、to run main1 to get the result of mulcalint30preder1detrend.mat
+the information of raw data,
+X1 : the spectrum from the first batch of biotransformation;
+X2 : the spectrum from the second batch of biotransformation;
+Y1 : the concentration of L-Glu and GABA in the first batch of biotransformation, the first column is the concentration of L-Glu and the second column is the concentration of GABA;
+Y2 : the concentration of L-Glu and GABA in the second batch of biotransformation, the first column is the concentration of L-Glu and the second column is the concentration of GABA;
+sel: the selected spectra points apart from the noise part from the interference of water; 
+Wavenum : the Wave number of the spectra.
+1.to run main1 to get the result of mulcalint30preder1detrend.mat:
 this step last too long, so we provided the result mulcalint30preder1detrend.mat as to skip the first main1 to continue the main2.
-2、to run main2 
+2.to run main2:
 get the PLS models of GABA and L-Glu on under 30 equidistant intervals and Der1 + Detrend pretreatment.
-3、to run main3
-get the  pareto front solutions for multi-objective optimization of the GABA/Glu PLS models
-4、to run main4
-get the Regression coefficient for GABA and Glu
-5、to run main5
-to run competitive adaptive reweighted sampling (CARS) algorithm under selected intervals by multi-objective optimization
-6、to run main6
-In order to maintain consistency with the results of the paper, you can skip main5 to directly load CARSresult.mat
-Main6 is to show the selected points given by CARS
+3.to run main3:
+get the  pareto front solutions for multi-objective optimization of the GABA/Glu PLS models.
+4.to run main4:
+get the Regression coefficient for GABA and Glu.
+5.to run main5:
+to run competitive adaptive reweighted sampling (CARS) algorithm under selected intervals by multi-objective optimization.
+6.to run main6:
+In order to maintain consistency with the results of the paper, you can skip main5 to directly load CARSresult.mat.
+Main6 is to show the selected points given by CARS.
