@@ -1,5 +1,5 @@
 # VNSGAII-CARS-Algorithm
-the information of raw data,
+the information of raw.mat,
 X1 : the spectrum from the first batch of biotransformation;
 X2 : the spectrum from the second batch of biotransformation;
 Y1 : the concentration of L-Glu and GABA in the first batch of biotransformation, the first column is the concentration of L-Glu and the second column is the concentration of GABA;
