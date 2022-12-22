@@ -19,3 +19,5 @@ to run competitive adaptive reweighted sampling (CARS) algorithm under selected 
 6.to run main6:
 In order to maintain consistency with the results of the paper, you can skip main5 to directly load CARSresult.mat.
 Main6 is to show the selected points given by CARS.
+7. to run main7:
+Main7 is to show the fit-line and 95% prediction intervals by NSGAII-CARS algorithm
